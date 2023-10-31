@@ -2,7 +2,7 @@
 
 This is a hello world example of using Prisma to create Postgresql database tables, read and write data.
 
-The code sample for this project is taken from the tutorial available at the [Prisma site](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql).
+The code sample for this project is taken from a tutorial found at the [Prisma site](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql).
 
 ## Commands
 
