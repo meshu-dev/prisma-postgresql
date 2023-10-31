@@ -3,6 +3,9 @@ import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
 async function main() {
+  /**
+   * Code block 1 - Create data 
+   */
   /*
   await prisma.user.create({
     data: {
@@ -25,6 +28,9 @@ async function main() {
   })
   console.dir(allUsers, { depth: null }) */
 
+  /**
+   * Code block 2 - Update existing data 
+   */
   const post = await prisma.post.update({
     where: { id: 1 },
     data: { published: true },
