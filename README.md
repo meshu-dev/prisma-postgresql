@@ -12,7 +12,7 @@ Install packages
 
 Copy .env and fill in 
 
-    npm run install
+    cp .env-example .env
 
 Create and run migration file from schema
 
